@@ -1,0 +1,38 @@
+/* Adding style for the needed elements */
+
+nav {
+    background-color: rgb(92, 21, 245);
+}
+
+#img {
+    max-height: 150px;
+    object-fit: contain;
+    margin-top: 20px;
+}
+
+#p2 {
+    min-height: 280px;
+    max-height: 280px;
+    overflow: scroll;
+}
+
+#button {
+    background-color: rgb(131, 247, 111);
+}
+
+#a {
+    margin-left: 12px;
+    background-color: rgb(37, 183, 37);
+}
+
+/* Organizing the cards on the container */
+
+.div1 > .card{
+    display: flex;
+
+}
+
+
+.card {
+    margin: 12px;
+}
